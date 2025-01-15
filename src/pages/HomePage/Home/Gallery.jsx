@@ -96,8 +96,7 @@ function Gallery() {
 
                     </div>
                     <div class="tm-portfolio-loadmore text-center mt-50">
-                        <a href="#" class="tm-button">Load More</a>
-                    </div>
+                    <button href="#appointment-area" className="tm-button hash-scroll-link ">Load More</button>                    </div>
                 </div>
 
             </div>

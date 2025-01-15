@@ -12,15 +12,15 @@ function Footer() {
 
                         <div class="col-lg-3 col-md-6 col-12">
                             <div class="single-widget widget-info">
-                                <a class="widget-info-logo" href="index.html"><img src="assets/images/logo.png"
-                                        alt="white logo"/></a>
+                            <img src="/images/logo.svg" className="w-24" />
                                 <p>Lorem ipsum dolor sit amet, consect adipisicing elit, sed do eiusmod tempor
                                     inci-didunt. It is a long established fact that a reader distracted.</p>
-                                <ul>
-                                    <li className="flex items-center justify-center"><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
-                                    <li className="flex items-center justify-center"><a href="#"><ion-icon name="logo-twitter"></ion-icon></a></li>
-                                    <li className="flex items-center justify-center"><a href="#"><ion-icon name="logo-pinterest"></ion-icon></a></li>
-                                    <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
+                                <ul className="">
+                                    <li className="footer-item"> <ion-icon name="logo-facebook" aria-hidden="true"></ion-icon></li>
+                                    <li className="footer-item"> <ion-icon name="logo-twitter" aria-hidden="true"></ion-icon></li>
+                                    <li className="footer-item"> <ion-icon name="logo-instagram" aria-hidden="true"></ion-icon></li>
+                                    <li className="footer-item"> <ion-icon name="call" aria-hidden="true"></ion-icon></li>
+
                                 </ul>
                             </div>
                         </div>

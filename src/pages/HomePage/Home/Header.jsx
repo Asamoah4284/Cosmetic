@@ -5,18 +5,19 @@ function Head() {
     <div className="container">
         <div className="row align-items-center">
             <div className="col-md-8">
-                <ul className="tm-header-info">
-                    <li><i className="ti ti-mobile"></i><b>Contact:</b> <a href="tel:18009156270">0206616983
-                        </a></li>
-                    <li><i className="ti ti-time"></i><b>Work time:</b> 9:00-18:00</li>
+                <ul className="tm-header-info flex items-center ">
+                    <li><ion-icon name="phone-portrait-outline"></ion-icon><a href="tel:18009156270">0206616983</a></li>
+                    <li className=""><ion-icon name="time-outline"></ion-icon>9:00-18:00</li>
                 </ul>
             </div>
             <div className="col-md-4">
                 <ul className="tm-header-icons">
                     <li><a href="#appointment-area" className="hash-scroll-link">Book Appointment</a></li>
-                    <li><a href="cart.html"><i className="ti ti-shopping-cart"></i></a></li>
-                    <li><a href="login-register.html"><i className="ti ti-user"></i></a></li>
-                    <li><button className="tm-header-searchtrigger"><i className="ti ti-search"></i></button></li>
+                    <li><a href="#" title="facebook"><ion-icon name="logo-facebook"></ion-icon></a>
+                </li>
+                <li><a href="#" title="facebook"><ion-icon name="logo-twitter"></ion-icon></a>
+                </li>                    <li><a href="#" title="facebook"><ion-icon name="logo-instagram"></ion-icon></a>
+                </li>
                 </ul>
             </div>
         </div>
@@ -27,27 +28,24 @@ function Head() {
     <div className="container">
         <div className="tm-header-bottominside">
             <div className="tm-header-searcharea">
-                <form action="#">
-                    <input type="text" placeholder="Enter search keyword.."/>
-                    <button type="submit"><i className="ti ti-search"></i></button>
-                </form>
+               
                 <button className="tm-header-searchclose"><i className="ti ti-close"></i></button>
             </div>
             <div className="tm-header-inner">
-               
-                <nav className="tm-header-nav">
+               <img src="/images/logo.svg" className="w-24" />
+                <nav className="tm-header-nav text-center">
                     <ul classNameName="flex items-center justify-center gap-0">
                        
-                        <li><a href="#tm-about-area">Home</a></li>
-                        <li><a href="#tm-about-area">About</a></li>
+                        <li><a href="">Home</a></li>
+                        <li><a href="#tm-about-area" className="hash-scroll-link">About</a></li>
                         <li><a href="#tm-service-area">Service</a></li>
+                       
 
                         
-                        <li><a href="#tm-contactus-area">Contact</a></li>
                     </ul>
                 </nav>
                 <div className="tm-header-button">
-                    <a href="#appointment-area" className="tm-button hash-scroll-link">Book Appointment</a>
+                    <button href="#appointment-area" className="tm-button hash-scroll-link ">Book Appointment</button>
                 </div>
                 <div className="tm-mobilenav"></div>
             </div>

@@ -18,7 +18,7 @@ function Hero() {
                                     <h1>A thing of beauty is a joy forever for women</h1>
                                     <p>The experience of beauty often involves an interpretation of some
                                         entity as being in balance.</p>
-                                    <a href="#" className="tm-button">Read more</a>
+                                        <button href="#appointment-area" className="tm-button hash-scroll-link ">Read More</button>
                                 </div>
                             </div>
                         </div>
@@ -28,13 +28,13 @@ function Hero() {
             {/* <!--// Heroslider Item --> */}
 
             <ul className="tm-heroslider-social">
-                <li><a href="#" title="facebook"><i className="ti ti-facebook"></i></a>
+                <li><a href="#" title="facebook"><ion-icon name="logo-facebook"></ion-icon></a>
                     <span className="tm-heroslider-social-tooltip">Facebook</span>
                 </li>
-                <li><a href="#" title="twitter"><i className="ti ti-twitter-alt"></i></a>
+                <li><a href="#" title="twitter"><ion-icon name="logo-twitter"></ion-icon></a>
                     <span className="tm-heroslider-social-tooltip">Twitter</span>
                 </li>
-                <li><a href="#" title="pinterest"><i className="ti ti-pinterest"></i></a>
+                <li><a href="#" title="pinterest"><ion-icon name="logo-instagram"></ion-icon></a>
                     <span className="tm-heroslider-social-tooltip">Pinterest</span>
                 </li>
             </ul>

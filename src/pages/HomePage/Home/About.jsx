@@ -1,12 +1,9 @@
-
-
-
-
 function About() {
    
   return <div>
       {/* <!-- About Area --> */}
-            <section id="tm-about-area" class="tm-section tm-about-area tm-padding-section bg-white"
+            <section id="tm-about-area" className="tm-section tm-about-area tm-padding-section bg-white"
+                style={{ scrollBehavior: 'smooth' }}
                 data-bgimage="assets/images/about-bg-image.png" data-white-overlay="8">
                 <div class="container">
                     <div class="row justify-content-center">
@@ -21,19 +18,33 @@ function About() {
                             </div>
                         </div>
                     </div>
-                    <div class="tm-about skincare">
-                        <div class="row">
-                            <div class="col-xl-7 col-lg-8">
-                                <h3>Welcome to munu beauty</h3>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod ncididunt
-                                    ametfh consectetur.</p>
-                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have
-                                    suffered alteration in some form by injected humour or randomised words which don't
-                                    look even slightly believable. </p>
-                                <a href="#" class="tm-button">Read more</a>
-                            </div>
-                        </div>
-                    </div>
+                    <section className="section about" id="about" aria-label="about">
+        <div className="container grid grid-cols-1  lg:grid-cols-2 gap-4">
+ <div className="flex  flex-col items-center justify-center md:px-5">
+            <h2 className=" mb-8 transition-colors duration-300">
+              Discover Your Beauty: Unleashing the Power of Cosmetics
+            </h2>
+
+            <p className="header-paragraph ">
+              We believe in the transformative power of cosmetics to enhance natural beauty and boost confidence. Our mission is to provide innovative and high-quality cosmetic solutions that empower individuals to express themselves. With a commitment to creativity and excellence, we strive to inspire beauty enthusiasts and professionals alike, ensuring that everyone can discover their unique style and shine in their own way.
+            </p>
+
+        
+          </div>
+
+          <figure className="about-banner" >
+            <img src='/images/skin-1.jpeg' 
+                 loading="lazy" 
+                 alt="about banner"
+                 className="w-100 h-[350px] md:h-[450px]
+                 object-cover transform transition-transform duration-500" />
+            
+          
+          </figure>
+         
+
+        </div>
+      </section>
                 </div>
             </section>
             {/* <!--// About Area --> */}
