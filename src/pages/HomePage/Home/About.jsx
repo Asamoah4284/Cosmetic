@@ -14,7 +14,7 @@ function About() {
                             <div class="tm-sectiontitle text-center">
                                 <h2>About Us</h2>
                                 <span class="tm-sectiontitle-divider">
-                                    <img src="assets/images/section-divider-icon.png" alt="section divider"/>
+                                    <img src="/images/flower.png" alt="section divider"/>
                                 </span>
                                 <p>Lorem ipsum dolor sittem ametamngcing elit, per sed do eiusmoad teimpor sittem elit
                                     inuning ut sed sittem do eiusmod.</p>
@@ -29,8 +29,7 @@ function About() {
                                     ametfh consectetur.</p>
                                 <p>There are many variations of passages of Lorem Ipsum available, but the majority have
                                     suffered alteration in some form by injected humour or randomised words which don't
-                                    look even slightly believable. If you are going to use a passage of Lorem Ipsum, you
-                                    need to be sure there isn't anything embarrassing.</p>
+                                    look even slightly believable. </p>
                                 <a href="#" class="tm-button">Read more</a>
                             </div>
                         </div>
