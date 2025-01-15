@@ -5,15 +5,14 @@ function Footer() {
             <ul id="instafeed" class="tm-instaphotos"></ul>
           
 
-            <div class="tm-footer-toparea tm-padding-section" data-bgimage="assets/images/footer-bgimage.jpg"
+            <div class="tm-footer-toparea tm-padding-section "
                 data-white-overlay="9">
                 <div class="container">
                     <div class="widgets widgets-footer row">
 
                         <div class="col-lg-3 col-md-6 col-12">
                             <div class="single-widget widget-info">
-                            <img src="/images/logo.svg" className="w-28 md:w-10 -mr-18px" />
-                                <p>L-Eclat Beauty Shop offers a curated selection of high-quality beauty products and services, focusing on enhancing natural beauty and providing personalized care to each customer..</p>
+                                <p className="mt-20">L'eclat Beauty Shop offers a curated selection of high-quality beauty products and services, focusing on enhancing natural beauty and providing personalized care to each customer..</p>
                                 
             <ul className="">
                 <li><a href="#" title="facebook"><ion-icon name="logo-facebook"></ion-icon></a>
@@ -52,15 +51,15 @@ function Footer() {
                                 <ul>
                                     <li className="">
                                         <h6><a href="#">Only 1 week of the year!</a></h6>
-                                        <span className="flex gap-2"><img src="/images/calendar.png"className="w-4" alt="" /> April 08, 2025</span>
+                                        <span className="flex gap-2"><img src="/images/calendar.png"className="w-4" alt="" /> June 08, 2025</span>
                                     </li>
                                     <li>
-                                        <h6><a href="#">Best tips for munu beauty</a></h6>
-                                        <span className="flex gap-2"><img src="/images/calendar.png"className="w-4" alt="" /> April 08, 2025</span>
+                                        <h6><a href="#">Best tips for L'eclat beauty</a></h6>
+                                        <span className="flex gap-2"><img src="/images/calendar.png"className="w-4" alt="" /> April 12, 2025</span>
                                     </li>
                                     <li>
                                         <h6><a href="#">Our favorite makeup tips</a></h6>
-                                        <span className="flex gap-2"><img src="/images/calendar.png"className="w-4" alt="" /> April 08, 2025</span>
+                                        <span className="flex gap-2"><img src="/images/calendar.png"className="w-4" alt="" /> October 26, 2025</span>
                                     </li>
                                 </ul>
                             </div>
@@ -86,8 +85,8 @@ function Footer() {
             <div class="tm-footer-bottomarea">
                 <div class="container">
                     <div class="row align-items-center">
-                        <div class="col-md-7">
-                            <p class="tm-footer-copyright">Powered By <a href="https://asarion.org/">Asarion</a> ©
+                        <div class="">
+                            <p class="ml-3">Powered By <a href="https://asarion.org/">Asarion</a> ©
                                 2025</p>
                         </div>
                        

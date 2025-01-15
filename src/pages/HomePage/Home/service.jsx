@@ -1,4 +1,3 @@
-
 function Service() {
    
   return <div>
@@ -12,8 +11,7 @@ function Service() {
                                 <span class="tm-sectiontitle-divider">
                                     <img src="/images/flower.png" alt="section divider"/>
                                 </span>
-                                <p>Lorem ipsum dolor sittem ametamngcing elit, per sed do eiusmoad teimpor sittem elit
-                                    inuning ut sed sittem do eiusmod.</p>
+                                <p className="text-[16px]">We offer a range of high-quality beauty products tailored to enhance your natural beauty. Our collection includes perfumes, skincare, and makeup essentials designed to meet diverse needs and preferences.</p>
                             </div>
                         </div>
                     </div>

@@ -6,6 +6,7 @@ import Gallery from "./Home/Gallery"
 import Head from "./Home/Header"
 import Hero from "./Home/Hero"
 import Service from "./Home/service"
+import Testimonials from "./Home/Testimonials"
 
 
 
@@ -19,6 +20,7 @@ function Home() {
     <Gallery/>
     <Contact/>
     <Deal/>
+    <Testimonials/>
     <Footer/>
   </div>
   }

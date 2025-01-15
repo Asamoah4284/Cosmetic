@@ -13,20 +13,19 @@ function About() {
                                 <span class="tm-sectiontitle-divider">
                                     <img src="/images/flower.png" alt="section divider"/>
                                 </span>
-                                <p>Lorem ipsum dolor sittem ametamngcing elit, per sed do eiusmoad teimpor sittem elit
-                                    inuning ut sed sittem do eiusmod.</p>
+                                <p className="text-[16px]">At our cosmetics brand, we celebrate individuality and empower self-expression through beauty. Our products are crafted with care, ensuring quality and innovation to help you shine your brightest.</p>
                             </div>
                         </div>
                     </div>
                     <section className="section about" id="about" aria-label="about">
         <div className="container grid grid-cols-1  lg:grid-cols-2 gap-4">
  <div className="flex  flex-col items-center justify-center md:px-5">
-            <h2 className=" mb-8 transition-colors duration-300">
+            <h2 className=" mb-8 transition-colors duration-300 font-bold">
               Discover Your Beauty: Unleashing the Power of Cosmetics
             </h2>
 
-            <p className="header-paragraph ">
-              We believe in the transformative power of cosmetics to enhance natural beauty and boost confidence. Our mission is to provide innovative and high-quality cosmetic solutions that empower individuals to express themselves. With a commitment to creativity and excellence, we strive to inspire beauty enthusiasts and professionals alike, ensuring that everyone can discover their unique style and shine in their own way.
+            <p className="text-lg">
+              We believe in the transformative power of cosmetics to enhance natural beauty and boost confidence. Our mission is to provide innovative and high-quality cosmetic solutions that empower individuals to express themselves. With a commitment to creativity and excellence, we strive to inspire beauty enthusiasts and professionals alike
             </p>
 
         

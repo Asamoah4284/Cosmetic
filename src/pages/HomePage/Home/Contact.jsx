@@ -26,7 +26,7 @@ function Contact() {
                                     <h4>Corporate Office</h4>
                                     <div class="tm-contact-addressblock">
                                         <b>Address</b>
-                                        <p>Toronto City Hall 123 Queen St W, Toronto, Sunyani, Bono Region.</p>
+                                        <p>Estate, Adjacent Owusu Memorial Hospital, Sunyani, Bono Region.</p>
                                     </div>
                                     <div class="tm-contact-addressblock">
                                         <b>Email</b>
@@ -35,7 +35,7 @@ function Contact() {
                                     </div>
                                     <div class="tm-contact-addressblock">
                                         <b>Phone</b>
-                                        <p><a href="tel:+233206616983">+233206616983</a></p>
+                                        <p><a href="tel:+233206616983">+233554406438</a></p>
                                     </div>
                                 </div>
                             </div>
@@ -44,7 +44,7 @@ function Contact() {
                                     <h4>Branch Office</h4>
                                        <div class="tm-contact-addressblock">
                                         <b>Address</b>
-                                        <p>Toronto City Hall 123 Queen St W, Toronto, Sunyani, Bono Region.</p>
+                                        <p>Estate, Adjacent Owusu Memorial Hospital, Sunyani, Bono Region.</p>
                                     </div>
                                     <div class="tm-contact-addressblock">
                                         <b>Email</b>

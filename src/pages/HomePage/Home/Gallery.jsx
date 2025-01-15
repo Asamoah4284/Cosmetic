@@ -10,8 +10,9 @@ function Gallery() {
                                 <span class="tm-sectiontitle-divider">
                                     <img src="/images/flower.png" alt="section divider"/>
                                 </span>
-                                <p>Lorem ipsum dolor sittem ametamngcing elit, per sed do eiusmoad teimpor sittem elit
-                                    inuning ut sed sittem do eiusmod.</p>
+                                <p  className="text-[16px]">Discover our exquisite collection of cosmetics that enhance your natural beauty.</p>
+                                <p>Our range features high-quality products, from vibrant lipsticks to luxurious foundations, catering to all skin types and tones.</p>
+                                
                             </div>
                         </div>
                     </div>
@@ -22,16 +23,15 @@ function Gallery() {
                         <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 mt-30">
                             <div class="tm-portfolio ">
                               
-                                    <img src="/images/portfolio-image-1.jpg" alt="portfolio image"/>
+                                    <img src="/images/1.jpg"  className=" w-[400px] h-[280px] object-cover" alt="portfolio image"/>
                                 
-                                <span class="tm-portfolio-icon"><i class="ti ti-fullscreen"></i></span>
                             </div>
                         </div>
                    
                         <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 mt-30">
                             <div class="tm-portfolio ">
                               
-                                    <img src="/images/portfolio-image-5.jpg" alt="portfolio image"/>
+                                    <img src="/images/8.jpg"  className=" w-[400px] h-[280px] object-cover" alt="portfolio image"/>
                                 
                             </div>
                         </div>
@@ -39,7 +39,7 @@ function Gallery() {
                         <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 mt-30">
                             <div class="tm-portfolio ">
                               
-                                    <img src="/images/portfolio-image-2.jpg" alt="portfolio image"/>
+                                    <img src="/images/2.jpg"  className=" w-[400px] h-[280px] object-cover" alt="portfolio image"/>
                                 
                             </div>
                         </div>
@@ -49,7 +49,7 @@ function Gallery() {
                         <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 mt-30">
                             <div class="tm-portfolio ">
                                 
-                                    <img src="/images/portfolio-image-3.jpg" alt="portfolio image"/>
+                                    <img src="/images/3.jpg"  className=" w-[400px] h-[280px] object-cover" alt="portfolio image"/>
                            
                             </div>
                         </div>
@@ -59,7 +59,7 @@ function Gallery() {
                         <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 mt-30">
                             <div class="tm-portfolio ">
                                 
-                                    <img src="/images/portfolio-image-4.jpg" alt="portfolio image"/>
+                                    <img src="/images/4.jpg"  className=" w-[400px] h-[280px] object-cover" alt="portfolio image"/>
                              
                             </div>
                         </div>
@@ -69,7 +69,7 @@ function Gallery() {
                         <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 mt-30">
                             <div class="tm-portfolio ">
                                 
-                                    <img src="/images/portfolio-image-6.jpg" alt="portfolio image"/>
+                                    <img src="/images/6.jpg"  className=" w-[400px] h-[280px] object-cover" alt="portfolio image"/>
                             </div>
                         </div>
                         {/* <!--// Single Portfolio --> */}
@@ -78,7 +78,7 @@ function Gallery() {
                         <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 mt-30">
                             <div class="tm-portfolio ">
                                
-                                    <img src="/images/portfolio-image-7.jpg" alt="portfolio image"/>
+                                    <img src="/images/7.jpg"  className=" w-[400px] h-[280px] object-cover" alt="portfolio image"/>
                             
                             </div>
                         </div>
@@ -88,7 +88,7 @@ function Gallery() {
                         <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 mt-30">
                             <div class="tm-portfolio ">
                                
-                                    <img src="/images/portfolio-image-8.jpg" alt="portfolio image"/>
+                                    <img src="/images/5.jpg" className=" w-[400px] h-[280px] object-cover" alt="portfolio image"/>
                               
                             </div>
                         </div>

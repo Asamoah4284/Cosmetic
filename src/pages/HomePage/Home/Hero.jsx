@@ -15,7 +15,7 @@ function Hero() {
                         <div className="col-lg-7 col-md-9 ">
                             <div className="tm-heroslider-contentwrapper">
                                 <div className="tm-heroslider-content">
-                                    <h1>A thing of beauty is a joy forever for women</h1>
+                                    <h1 className="font-[900]">A thing of beauty is a joy forever for women</h1>
                                     <p>The experience of beauty often involves an interpretation of some
                                         entity as being in balance.</p>
                                         <button href="#appointment-area" className="tm-button hash-scroll-link ">Read More</button>
