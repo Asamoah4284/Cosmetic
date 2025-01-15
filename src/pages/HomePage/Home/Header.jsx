@@ -34,10 +34,11 @@ function Head() {
             <div className="tm-header-inner">
                <img src="/images/logo.svg" className="w-24" />
                 <nav className="tm-header-nav text-center">
-                    <ul classNameName="flex items-center justify-center gap-0">
+                    <ul classNameName="">
                        
                         <li><a href="">Home</a></li>
                         <li><a href="#tm-about-area" className="hash-scroll-link">About</a></li>
+                        <li className="hidden md:block"><a href="#tm-service-area">Service</a></li>
                         <li><a href="#tm-service-area">Service</a></li>
                        
 

@@ -12,16 +12,23 @@ function Footer() {
 
                         <div class="col-lg-3 col-md-6 col-12">
                             <div class="single-widget widget-info">
-                            <img src="/images/logo.svg" className="w-24" />
-                                <p>Lorem ipsum dolor sit amet, consect adipisicing elit, sed do eiusmod tempor
-                                    inci-didunt. It is a long established fact that a reader distracted.</p>
-                                <ul className="">
-                                    <li className="footer-item"> <ion-icon name="logo-facebook" aria-hidden="true"></ion-icon></li>
-                                    <li className="footer-item"> <ion-icon name="logo-twitter" aria-hidden="true"></ion-icon></li>
-                                    <li className="footer-item"> <ion-icon name="logo-instagram" aria-hidden="true"></ion-icon></li>
-                                    <li className="footer-item"> <ion-icon name="call" aria-hidden="true"></ion-icon></li>
-
-                                </ul>
+                            <img src="/images/logo.svg" className="w-28 md:w-10 -mr-18px" />
+                                <p>L-Eclat Beauty Shop offers a curated selection of high-quality beauty products and services, focusing on enhancing natural beauty and providing personalized care to each customer..</p>
+                                
+            <ul className="">
+                <li><a href="#" title="facebook"><ion-icon name="logo-facebook"></ion-icon></a>
+                    <span className="tm-heroslider-social-tooltip"></span>
+                </li>
+                <li><a href="#" title="twitter"><ion-icon name="logo-twitter"></ion-icon></a>
+                    <span className="tm-heroslider-social-tooltip"></span>
+                </li>
+                <li><a href="#" title="pinterest"><ion-icon name="logo-instagram"></ion-icon></a>
+                    <span className="tm-heroslider-social-tooltip"></span>
+                </li>
+                <li><a href="#" title="pinterest"><ion-icon name="call"></ion-icon></a>
+                    <span className="tm-heroslider-social-tooltip"></span>
+                </li>
+            </ul>
                             </div>
                         </div>
 
@@ -30,6 +37,7 @@ function Footer() {
                                 <h4 class="widget-title">Quick Links</h4>
                                 <ul>
                                     <li><a href="#">About Us</a></li>
+                                    <li><a href="#">Contact Us</a></li>
                                     <li><a href="#">Service</a></li>
                                     <li><a href="#">Product</a></li>
                                   
@@ -61,12 +69,11 @@ function Footer() {
                         <div class="col-lg-3 col-md-6 col-12">
                             <div class="single-widget widget-hours">
                                 <h4 class="widget-title">Opening Hours</h4>
-                                <p>Lorem ipsum dolor sit amet, consect
-                                    adipisicing elit, sed do eiusmod tempor inci-didunt.</p>
+                                <p>Contact us during our opening hours for any inquiries.</p>
                                 <ul>
-                                    <li><span>Mon - Tue</span>: 9.00 AM - 18.00 PM</li>
-                                    <li><span>Wed - Fri</span>: 8.00 AM - 17.00 PM</li>
-                                    <li><span>Saturday</span>: 9.00 PM - 15.00 PM</li>
+                                    <li><span>Mon - Tue</span>: 8:30 AM - 8:30 PM</li>
+                                    <li><span>Wed - Fri</span>: 8:30 AM - 8:30 PM</li>
+                                    <li><span>Saturday</span>: 8:30 AM - 8:30 PM</li>
                                     <li><span>Sunday</span>: Closed</li>
                                 </ul>
                             </div>

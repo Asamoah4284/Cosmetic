@@ -31,30 +31,29 @@ function Contact() {
                                     <div class="tm-contact-addressblock">
                                         <b>Email</b>
                                         <p>Email: <a href="mailto:info@example.com">fatidd2000@yahoo.com</a></p>
-                                        <p>whatsapp:+233206616983</p>
+                                        <p>whatsapp: 233-206-616-983</p>
                                     </div>
                                     <div class="tm-contact-addressblock">
                                         <b>Phone</b>
-                                        <p><a href="tel:+18009156270">+233206616983</a></p>
+                                        <p><a href="tel:+233206616983">+233206616983</a></p>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-6">
                                 <div class="tm-contact-address">
                                     <h4>Branch Office</h4>
-                                    <div class="tm-contact-addressblock">
+                                       <div class="tm-contact-addressblock">
                                         <b>Address</b>
-                                        <p>Toronto City Hall 123 Queen St W, Toronto, Ontario M1N2O3, Canada.</p>
+                                        <p>Toronto City Hall 123 Queen St W, Toronto, Sunyani, Bono Region.</p>
                                     </div>
                                     <div class="tm-contact-addressblock">
                                         <b>Email</b>
-                                        <p>Email: <a href="mailto:info@example.com">info@example.com</a></p>
-                                        <p>Skype: example.name</p>
+                                        <p>Email: <a href="mailto:info@example.com">fatidd2000@yahoo.com</a></p>
+                                        <p>whatsapp: 233-206-616-983</p>
                                     </div>
                                     <div class="tm-contact-addressblock">
                                         <b>Phone</b>
-                                        <p><a href="tel:+18009156270">1-800-915-6270</a></p>
-                                        <p><a href="tel:+18009156272">1-800-915-6272</a></p>
+                                        <p><a href="tel:+233206616983">+233206616983</a></p>
                                     </div>
                                 </div>
                             </div>
