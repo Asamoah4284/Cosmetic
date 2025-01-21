@@ -1,6 +1,6 @@
 function Head() {
     return <div>
-       <div className="tm-header tm-header-sticky ">
+       <div className="tm-header tm-header-sticky fixed top-0 w-full z-50 bg-white">
 <div className="tm-header-toparea">
     <div className="container">
         <div className="row align-items-center">
@@ -34,19 +34,14 @@ function Head() {
             <div className="tm-header-inner">
                <img src="/images/logo.svg" className="w-16" />
                 <nav className="tm-header-nav text-center">
-                    <ul classNameName="">
-                       
-                        <li><a href="">Home</a></li>
+                    <ul className="nav-list">
+                        <li><a href="/">Home</a></li>
                         <li><a href="#tm-about-area" className="hash-scroll-link">About</a></li>
-                        <li className="hidden md:block"><a href="#tm-service-area">Service</a></li>
-                        <li><a href="#tm-service-area">Service</a></li>
-                       
-
-                        
+                        <li><a href="#tm-service-area" className="hash-scroll-link">Service</a></li>
                     </ul>
                 </nav>
                 <div className="tm-header-button">
-                    <button href="#appointment-area" className="tm-button hash-scroll-link ">Book Appointment</button>
+                    <a href="#appointment-area" className="tm-button hash-scroll-link">Book Appointment</a>
                 </div>
                 <div className="tm-mobilenav"></div>
             </div>

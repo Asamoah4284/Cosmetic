@@ -19,9 +19,10 @@ function Service() {
                         <div class="col-lg-4 col-md-6 col-12">
                             <div class="tm-service text-center ">
                                 <span class="tm-service-icon">
-                                <img src="/images/perfume-spray.png" className="w-28" alt="" />
-                                <a href="https://www.flaticon.com/free-icons/cosmetics" title="cosmetics icons"></a>
-
+                                <div className="hover:text-pink-500">
+                                    <img src="/images/perfume-spray.png" className="w-28" alt="" />
+                                    <a href="https://www.flaticon.com/free-icons/cosmetics" title="cosmetics icons"></a>
+                                </div>
                                 </span>
                                 <h5>Perfume</h5>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean cursus tincidunt

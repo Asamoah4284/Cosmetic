@@ -23,6 +23,10 @@
     color: #ff4081; /* Change the color */
   }
   
+  .tm-heroslider-area {
+    position: relative;
+    top: 140px;
+}
 /* .about .container {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -43,7 +47,13 @@
   position: absolute;
   border-radius: 50%;
 }
-
+.tm-header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 50;
+  background-color: white;
+}
 .about-banner .shape-1 {
   width: 30px;
   height: 30px;
