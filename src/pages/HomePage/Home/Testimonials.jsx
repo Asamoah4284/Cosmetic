@@ -57,7 +57,7 @@ function Testimonials() {
               <span class="tm-testimonial-authorimage">
                 <img src={testimonials[currentIndex].image} alt="author image" />
               </span>
-              <p>{testimonials[currentIndex].text}</p>
+              <p className=''>{testimonials[currentIndex].text}</p>
               <div class="tm-testimonial-author">
                 <h6>{testimonials[currentIndex].author}</h6>
                 <span>Client</span>

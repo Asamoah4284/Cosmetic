@@ -3,7 +3,7 @@ function Hero() {
     // Heroslider Area wrapper
     <div className="tm-heroslider-area">
       {/* Heroslider Item */}
-      <div className="tm-heroslider background">
+      <div className="tm-heroslider background bg-cover bg-center bg-no-repeat min-h-[80vh] relative">
         <div className="container">
           <div className="row">
             <div className="col-lg-7 col-md-9">
@@ -12,7 +12,7 @@ function Hero() {
                   <h1 className="font-[900]">A thing of beauty is a joy forever for women</h1>
                   <p>The experience of beauty often involves an interpretation of some
                     entity as being in balance.</p>
-                  <a href="#appointment-area" className="tm-button hash-scroll-link">Read More</a>
+                  <button id="services" className="tm-button hash-scroll-link inline-block px-8"><a href="#tm-service-area">Read More</a></button>
                 </div>
               </div>
             </div>

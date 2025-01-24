@@ -1,5 +1,3 @@
-
-
 function Contact() {
    
   return <div>
@@ -13,8 +11,7 @@ function Contact() {
                                 <span class="tm-sectiontitle-divider">
                                     <img src="/images/flower.png" alt="section divider"/>
                                 </span>
-                                <p>Lorem ipsum dolor sittem ametamngcing elit, per sed do eiusmoad teimpor sittem elit
-                                    inuning ut sed sittem do eiusmod.</p>
+                                <p>If you have any questions or need assistance, feel free to reach out to us. We are here to help you!</p>
                             </div>
                         </div>
                     </div>

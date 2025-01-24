@@ -24,7 +24,7 @@ function Footer() {
                 <li><a href="#" title="pinterest"><ion-icon name="logo-instagram"></ion-icon></a>
                     <span className="tm-heroslider-social-tooltip"></span>
                 </li>
-                <li><a href="#" title="pinterest"><ion-icon name="call"></ion-icon></a>
+                <li><a href="tel:+233554406438" title="call"><ion-icon name="call"></ion-icon></a>
                     <span className="tm-heroslider-social-tooltip"></span>
                 </li>
             </ul>

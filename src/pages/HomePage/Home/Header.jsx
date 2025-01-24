@@ -7,7 +7,7 @@ function Head() {
             <div className="col-md-8">
                 <ul className="tm-header-info flex items-center ">
                     <li><ion-icon name="phone-portrait-outline"></ion-icon><a href="tel:+233206616983">0206616983</a></li>
-                    <li className=""><ion-icon name="time-outline"></ion-icon>9:00-18:00</li>
+                    <li className=""><ion-icon name="time-outline"></ion-icon>08:30-08:30</li>
                 </ul>
             </div>
             <div className="col-md-4">
@@ -34,7 +34,7 @@ function Head() {
             <div className="tm-header-inner">
                <img src="/images/logo.svg" className="w-16" />
                 <nav className="tm-header-nav text-center">
-                    <ul className="nav-list">
+                    <ul className="nav-list text-xl ">
                         <li><a href="/">Home</a></li>
                         <li><a href="#tm-about-area" className="hash-scroll-link">About</a></li>
                         <li><a href="#tm-service-area" className="hash-scroll-link">Service</a></li>

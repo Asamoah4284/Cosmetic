@@ -25,9 +25,8 @@ function Service() {
                                 </div>
                                 </span>
                                 <h5>Perfume</h5>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean cursus tincidunt
-                                    ultrices utquis blandit dolor.</p>
-                                <a href="#" class="tm-readmore tm-readmore-dark">Read more</a>
+                                <p>Experience the essence of elegance with our exquisite perfume collection, designed to captivate your senses and enhance your personal style.</p>
+                                <button class="tm-readmore tm-readmore-dark">Read more</button>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6 col-12">
@@ -36,9 +35,8 @@ function Service() {
                                     <img src="/images/make-up.png" className="w-28" alt="" />
                                 </span>
                                 <h5>Pomade</h5>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean cursus tincidunt
-                                    ultrices utquis blandit dolor.</p>
-                                <a href="#" class="tm-readmore tm-readmore-dark">Read more</a>
+                                <p>Our pomade offers a strong hold and a natural finish, perfect for styling your hair with ease. Whether you're going for a sleek look or a textured finish, our pomade is designed to meet your needs.</p>
+                                <button>Read more</button>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6 col-12">
@@ -47,9 +45,8 @@ function Service() {
                                 <img src="/images/cream.png" className="w-28" alt="" />
                                 </span>
                                 <h5>Skin care</h5>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean cursus tincidunt
-                                    ultrices utquis blandit dolor.</p>
-                                <a href="#" class="tm-readmore tm-readmore-dark">Read more</a>
+                                <p>Our skin care products are formulated with natural ingredients to nourish and rejuvenate your skin. From moisturizers to serums, we provide solutions for all skin types.</p>
+                                <button class="tm-readmore tm-readmore-dark">Read more</button>
                             </div>
                         </div>
                      

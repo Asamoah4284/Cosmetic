@@ -1,12 +1,12 @@
 function Gallery() {
   // Add product data
   const products = [
-    { id: 1, name: "Luminous Foundation", price: 39.99, image: "/images/1.jpg" },
-    { id: 2, name: "Velvet Matte Lipstick", price: 24.99, image: "/images/2.jpg" },
-    { id: 3, name: "Natural Glow Blush", price: 29.99, image: "/images/3.jpg" },
-    { id: 4, name: "Silk Finish Powder", price: 34.99, image: "/images/4.jpg" },
-    { id: 5, name: "Long-wear Mascara", price: 22.99, image: "/images/5.jpg" },
-    { id: 6, name: "Eyeshadow Palette", price: 45.99, image: "/images/8.jpg" },
+    { id: 1, name: "Vaseline Lip Therapy", price: 39.99, image: "/images/1.jpg" },
+    { id: 2, name: "Dr Teal's Shea Sugar Scrub", price: 199.99, image: "/images/2.jpg" },
+    { id: 3, name: "Shea Butter Body Lotion", price: 249.99, image: "/images/3.jpg" },
+    { id: 4, name: "GLUTA-HYA", price: 199.99, image: "/images/4.jpg" },
+    { id: 5, name: "Retinol C serum", price: 59.99, image: "/images/6.jpg" },
+    { id: 6, name: "Gel Douch Shower Gel", price: 219.99, image: "/images/9.jpg" },
   ];
 
   return <div className="bg-gray-50 py-12">
@@ -41,7 +41,7 @@ function Gallery() {
                                     </div>
                                     <div className="p-6">
                                         <h3 className="text-lg font-medium text-gray-900 mb-2">{product.name}</h3>
-                                        <p className="text-xl font-bold text-rose-600">${product.price}</p>
+                                        <p className="text-xl font-bold text-rose-600">GHC{product.price}</p>
                                         
                                     </div>
                                 </div>
@@ -50,8 +50,11 @@ function Gallery() {
                     </div>
                     
                     <div className="text-center mt-16">
-                        <button className="inline-flex items-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-rose-500 hover:bg-rose-600 transition-colors duration-200">
-                            Load More
+                        <button 
+                            onClick={() => window.location.href = 'tel:+233554406438'}
+                            className="inline-flex items-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-rose-500 hover:bg-rose-600 transition-colors duration-200"
+                        >
+                            Call Us For More
                         </button>
                     </div>
                 </div>
