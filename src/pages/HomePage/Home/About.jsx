@@ -8,7 +8,7 @@ function About() {
             >
               <div className="container mx-auto px-4 max-w-7xl">
                 {/* Header Section */}
-                <div className="text-center mb-16">
+                <div className="text-center mb-16" data-aos="fade-up" data-aos-duration="1000">
                   <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
                     About Us
                   </h2>
@@ -28,8 +28,8 @@ function About() {
                 </div>
 
                 {/* Main Content */}
-                <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-                  <div className="space-y-6">
+                <div  className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                  <div className="space-y-6" data-aos="fade-right" data-aos-duration="1000">
                     <h3 className="text-3xl font-bold text-gray-900 leading-tight">
                       Discover Your Beauty: Unleashing the Power of Cosmetics
                     </h3>
@@ -41,7 +41,7 @@ function About() {
                     </p>
                   </div>
 
-                  <div className="relative group">
+                  <div className="relative group" data-aos="fade-left" data-aos-duration="1000">
                     <img 
                       src="/images/skin-1.jpeg"
                       alt="about banner"
