@@ -3,7 +3,7 @@ function Hero() {
     // Heroslider Area wrapper
     <div className="tm-heroslider-area relative">
       {/* Heroslider Item */}
-      <div className="tm-heroslider background bg-cover bg-center bg-no-repeat min-h-[70vh] md:min-h-screen">
+      <div className="tm-heroslider background bg-cover bg-center bg-no-repeat min-h-[90vh] md:min-h-screen">
         <div className="container">
           <div className="row">
             <div className="col-lg-7 col-md-9">
