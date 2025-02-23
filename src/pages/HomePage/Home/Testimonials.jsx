@@ -4,25 +4,21 @@ function Testimonials() {
   const testimonials = [
     
     {
-      author: "Hosea Hilll",
+      author: "Hosea Hill",
       text: "L'éclat is a remarkable experience that captivates the senses and leaves a lasting impression. The ambiance, service, and attention to detail are truly exceptional.",
       image: "/images/portfolio-image-2.jpg"
     },
     {
-      author: "Abbey Douglas",
+      author: "Abbey Ivy",
       text: "The experience at l'éclat was nothing short of magical. Every detail was meticulously crafted to create a perfect evening.",
       image: "/images/portfolio-image-3.jpg"
     },
     {
-      author: "John Doe",
+      author: "Jennifer Acquah",
       text: "The experience at l'éclat was nothing short of magical. Every detail was meticulously crafted to create a perfect evening.",
       image: "/images/portfolio-image-4.jpg"
     },
-    {
-      author: "Jane Smith",
-      text: "I was blown away by the quality of service and the exquisite atmosphere at l'éclat. A must-visit for anyone looking for a memorable dining experience.",
-      image: "/images/portfolio-image-5.jpg"
-    }
+   
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
