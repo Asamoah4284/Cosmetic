@@ -23,7 +23,7 @@ function Hero() {
       <ul className="tm-heroslider-social">
         <li><a href="#" className="transition-all duration-300 hover:-translate-y-1 hover:text-primary inline-block" title="facebook"><ion-icon name="logo-facebook"></ion-icon></a>
           <span className="tm-heroslider-social-tooltip">Facebook</span>
-        </li>
+        </li> 
         <li><a href="#" className="transition-all duration-300 hover:-translate-y-1 hover:text-primary inline-block" title="twitter"><ion-icon name="logo-twitter"></ion-icon></a>
           <span className="tm-heroslider-social-tooltip">Twitter</span>
         </li>

@@ -34,7 +34,7 @@ function Gallery() {
                   <img src="/images/flower.png" alt="section divider"/>
                 </span>
                 <p className="text-[16px]">Discover our exquisite collection of cosmetics that enhance your natural beauty.</p>
-                <p>Our range features high-quality products, from vibrant lipsticks to luxurious foundations, catering to all skin types and tones.</p>
+                
               </div>
             </div>
           </div>
